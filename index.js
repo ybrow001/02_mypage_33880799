@@ -1,5 +1,5 @@
 var http = require("http"); 
-const port = 8000; 
+const port = 8000;
 
 let textLang = ["yanchun mian or qing tang mian", "阳春面 or 清汤面", "陽春面 or 清湯麵"]; // language options for text stored in array
 let textLangI = 0; // textLang index
