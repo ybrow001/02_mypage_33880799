@@ -66,6 +66,8 @@ http.createServer(function(req, res) {
            some of my favourite things are walks in nature, music, evening light and my cat flo. <br>
            my go to recipe atm is ${textLang[textLangI]} - spring noodles or clear noodle soup. <br>
            it's very light, simple and goes nicely with steamed vegetables and soft tofu.
+           <br><br>
+           :)
           </p>
         </body>
         </html>`
