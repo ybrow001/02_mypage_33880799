@@ -34,7 +34,7 @@ http.createServer(function(req, res) {
     }
     // if() statements switching pinyin text for chinese characters if a user's accpeted languages include simpl. or trad. chinese
 
-    res.writeHead(200, {"Content-Type": "text/HTML"}); 
+    res.writeHead(200, {"Content-Type": "text/html; charset=UTF-8"}); 
     // changed content-type from text/plain to include HTML
 
     res.end(
